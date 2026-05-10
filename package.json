@@ -1,0 +1,23 @@
+{
+  "name": "curso-javascript-projeto-usuarios-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vandinho01/projeto-usuarios-restapi#readme",
+  "bugs": {
+    "url": "https://github.com/vandinho01/projeto-usuarios-restapi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandinho01/projeto-usuarios-restapi.git"
+  },
+  "license": "ISC",
+  "author": "Evandro Menschaid",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
