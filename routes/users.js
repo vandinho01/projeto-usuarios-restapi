@@ -28,7 +28,8 @@ module.exports = (app) => {
     });
 
     route.post((req, res) => {
-        console.log(req.body);
+        
+        if(!app.utils.validator.user(adpp, req, res)) return false;
 
         db.insert(req.body, (err, user) => {
 
@@ -57,6 +58,8 @@ module.exports = (app) => {
     });
 
     routeId.put((req, res) => {
+
+        if(!app.utils.validator.user(adpp, req, res)) return false;
 
         db.update({ _id: request.paramns.id }, req.body, err => {
             if (err) {
